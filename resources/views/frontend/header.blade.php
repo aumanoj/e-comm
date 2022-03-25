@@ -9,16 +9,16 @@
    <meta name="msapplication-TileColor" content="#ffffff">
    <meta name="theme-color" content="#ffffff">
    <!--Bootstrap and Other Vendors-->
-   <link rel="stylesheet" href="{{URL::asset('assets/frontend/css/bootstrap.min.css')}}?t=<?=time();?>">
-   <link rel="stylesheet" href="{{URL::asset('assets/frontend/css/bootstrap-theme.min.css')}}?t=<?=time();?>">
-   <link rel="stylesheet" href="{{URL::asset('assets/frontend/css/fontawesome-all.min.css')}}?t=<?=time();?>">
-   <link rel="stylesheet" href="{{URL::asset('assets/frontend/vendors/owl.carousel/css/owl.carousel.min.css')}}?t=<?=time();?>">
-   <link rel="stylesheet" type="text/css" href="{{URL::asset('assets/frontend/vendors/flexslider/flexslider.css')}}" media="screen" />
+   <link rel="stylesheet" href="{{URL::asset('assets/css/bootstrap.min.css')}}?t=<?=time();?>">
+   <link rel="stylesheet" href="{{URL::asset('assets/css/bootstrap-theme.min.css')}}?t=<?=time();?>">
+   <link rel="stylesheet" href="{{URL::asset('assets/css/fontawesome-all.min.css')}}?t=<?=time();?>">
+   <link rel="stylesheet" href="{{URL::asset('assets/vendors/owl.carousel/css/owl.carousel.min.css')}}?t=<?=time();?>">
+   <link rel="stylesheet" type="text/css" href="{{URL::asset('assets/vendors/flexslider/flexslider.css')}}" media="screen" />
    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
    <!--Mechanic Styles-->
-   <link rel="stylesheet" href="{{URL::asset('assets/frontend/css/style.css')}}?t=<?=time();?>">
-   <link rel="stylesheet" href="{{URL::asset('assets/frontend/css/responsive.css')}}?t=<?=time();?>">
+   <link rel="stylesheet" href="{{URL::asset('assets/css/style.css')}}?t=<?=time();?>">
+   <link rel="stylesheet" href="{{URL::asset('assets/css/responsive.css')}}?t=<?=time();?>">
 </head>
 <body>
   
@@ -28,7 +28,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-3 logo">
-                  <a href="{{url('/')}}" class="logo_a"><img src="{{asset('images/dshine-logo.png')}}" alt="Bansal & Sons">
+                  <a href="{{url('/')}}" class="logo_a"><img src="{{asset('assets/images/dshine-logo.png')}}" alt="Bansal & Sons">
                   </a>
                </div>
                <div class="col-sm-9 searchSec">
@@ -82,7 +82,7 @@
                                        </thead>
                                        <tbody>
                                           <tr class="alert" role="alert">
-                                             <td class="productImage"><img src="images/product/single/l1.png" alt=""></td>
+                                             <td class="productImage"><img src="{{asset('assets/images/product/single/l1.png')}}" alt=""></td>
                                              <td class="productName">
                                                 <h6 class="heading">Gold Plated Charm</h6>
                                                 <div class="input-group spinner">
@@ -96,7 +96,7 @@
                                              <td><a href="#" class="edit" data-dismiss="alert" aria-label="Close"><i class="far fa-trash-alt"></i></a></td>
                                           </tr>
                                           <tr class="alert" role="alert">
-                                             <td class="productImage"><img src="images/product/single/l1.png" alt=""></td>
+                                             <td class="productImage"><img src="{{asset('assets/images/product/single/l1.png')}}" alt=""></td>
                                              <td class="productName">
                                                 <h6 class="heading">Zephyrr Stones</h6>
                                                 <div class="input-group spinner">

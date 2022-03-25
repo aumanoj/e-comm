@@ -5,7 +5,7 @@
          <div class="row sliderCont flexslider m0">
             <ul class="slides nav">
                <li>
-                  <img src="images/slider/1.jpg" alt="">
+                  <img src="{{asset('assets/images/slider/1.jpg')}}" alt="">
                   <div class="text_lines row m0">
                      <div class="container p0 text-right">
                         <h3>traditional costume jewellery</h3>

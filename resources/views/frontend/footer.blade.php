@@ -26,7 +26,7 @@
                                 <textarea name="message" id="message" class="form-control"></textarea>
                             </div>
                             <div class="row m0 captchaRow">
-                                <img src="images/captcha.png" alt=""><br>
+                                <img src="{{asset('assets/images/captcha.png')}}" alt=""><br>
                                 <label for="captcha">Enter the above text</label>
                                 <input type="text" class="form-control" name="captcha" id="captcha">
                             </div>
@@ -98,7 +98,7 @@
                <div class="row footFeatures">
                   <div class="col-sm-4 footFeature">
                      <div class="media m0">
-                        <div class="media-left icon"><img src="images/icons/tel24-7_2.png" alt=""></div>
+                        <div class="media-left icon"><img src="{{asset('assets/images/icons/tel24-7_2.png')}}" alt=""></div>
                         <div class="media-body texts">
                            <h4>E-mail</h4>
                            <h2 class="footer-info-h2" style="font-size: initial;">info@bansalandsonsjewellers.com</h2>
@@ -108,7 +108,7 @@
                   </div>
                   <div class="col-sm-4 footFeature">
                      <div class="media m0">
-                        <div class="media-left icon"><img src="images/icons/tel24-7_2.png" alt=""></div>
+                        <div class="media-left icon"><img src="{{asset('assets/images/icons/tel24-7_2.png')}}" alt=""></div>
                         <div class="media-body texts">
                            <h4>Bansal and Sons Jewellers</h4>
                            <h2 class="footer-info-h2" style="font-size: initial;">Bansal and Sons Jewellers Prop.</h2>
@@ -118,7 +118,7 @@
                   </div>
                   <div class="col-sm-4 footFeature">
                      <div class="media m0">
-                        <div class="media-left icon"><img src="images/icons/shopping-bag2.png" alt=""></div>
+                        <div class="media-left icon"><img src="{{asset('assets/images/icons/shopping-bag2.png')}}" alt=""></div>
                         <div class="media-body texts">
                            <h4>Regd. Office</h4>
                            <h2 class="footer-info-h2" style="font-size: initial;">1167, Lift Wali Building, 3rd floor, Kucha Mahajani<br>Chandni Chowk, Delhi-06</h2>
@@ -196,17 +196,17 @@
       </footer>
       <!--jQuery, Bootstrap and other vendor JS-->
       <!--jQuery-->
-      <script src="{{URL::asset('assets/frontend/js/jquery-2.1.3.min.js')}}?t=<?=time();?>"></script>
+      <script src="{{URL::asset('assets/js/jquery-2.1.3.min.js')}}?t=<?=time();?>"></script>
       <!--Google Maps-->
       <script src="https://maps.googleapis.com/maps/api/js')}}?t=<?=time();?>"></script>
       <!--Bootstrap JS-->
-      <script src="{{URL::asset('assets/frontend/js/bootstrap.min.js')}}?t=<?=time();?>"></script>
+      <script src="{{URL::asset('assets/js/bootstrap.min.js')}}?t=<?=time();?>"></script>
       
       <!--Owl Carousel-->
-      <script src="{{URL::asset('assets/frontend/vendors/owl.carousel/js/owl.carousel.min.js')}}?t=<?=time();?>"></script>
+      <script src="{{URL::asset('assets/vendors/owl.carousel/js/owl.carousel.min.js')}}?t=<?=time();?>"></script>
       <!--Isotope-->
-      <script src="{{URL::asset('assets/frontend/vendors/isotope/isotope-custom.js')}}?t=<?=time();?>"></script>
+      <script src="{{URL::asset('assets/vendors/isotope/isotope-custom.js')}}?t=<?=time();?>"></script>
       <!--FlexSlider-->
-      <script src="{{URL::asset('assets/frontend/vendors/flexslider/jquery.flexslider-min.js')}}?t=<?=time();?>"></script>
+      <script src="{{URL::asset('assets/vendors/flexslider/jquery.flexslider-min.js')}}?t=<?=time();?>"></script>
       <!--D-shine JS-->
-      <script src="{{URL::asset('assets/frontend/js/d-shine.js')}}?t=<?=time();?>"></script>
+      <script src="{{URL::asset('assets/js/d-shine.js')}}?t=<?=time();?>"></script>
