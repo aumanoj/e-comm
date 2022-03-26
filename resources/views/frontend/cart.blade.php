@@ -34,7 +34,7 @@
                      <tbody>
                         @foreach($carts as $cart)
                         <tr class="alert" role="alert">
-                           <td class="productImage"><img src="images/product/single/l1.png" alt=""></td>
+                           <td class="productImage"><img src="{{asset('assets/images/product/single/l1.png')}}" alt=""></td>
                            <td class="productName">
                               <h6 class="heading">{{$cart->products->product_model_name}}</h6>
                               <div class="row descList m0">

@@ -163,7 +163,7 @@
                   <div class="row">
                      <div class="col-md-3 col-sm-3 col-xs-3">
                         <div style="display:inline-block; padding-top:10px;">
-                           <img class="img-responsive" src="images/dshine-logo.png" width="100" height="100" alt="Bansal & Sons">  
+                           <img class="img-responsive" src="{{asset('assets/images/dshine-logo.png')}}" width="100" height="100" alt="Bansal & Sons">  
                         </div>
                      </div>
                      <div class="col-md-6 col-sm-6 col-xs-6">
@@ -195,7 +195,7 @@
                                  <a href="#" title="Rings">
                                     <!-- <i class="fas fa-coins"></i> -->
                                     <span class="jwellery-icons-mobile">
-                                    <img class="img-responsive" src="images/icons/ring.png" width="25" height="25">
+                                    <img class="img-responsive" src="{{asset('assets/images/icons/ring.png')}}" width="25" height="25">
                                     </span> 
                                     <span></p></span>
                                  </a>
@@ -206,7 +206,7 @@
                              <a href="#" title="Rings">
                                  <i class="fas fa-coins"></i>
                                 <span class="jwellery-icons-mobile">
-                                <img class="img-responsive" src="images/icons/ring.png" width="25" height="25">
+                                <img class="img-responsive" src="{{asset('assets/images/icons/ring.png')}}" width="25" height="25">
                                 </span>
                                 <span>Rings</span>
                              </a>

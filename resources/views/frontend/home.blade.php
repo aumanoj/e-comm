@@ -16,7 +16,7 @@
                   <!--Text Lines-->
                </li>
                <li>
-                  <img src="images/slider/3.jpg" alt="">
+                  <img src="{{asset('assets/images/slider/3.jpg')}}" alt="">
                   <div class="text_lines row m0">
                      <div class="container p0 text-left">
                         <h3>exquisite Designer Rings</h3>
@@ -27,7 +27,7 @@
                   <!--Text Lines-->
                </li>
                <li>
-                  <img src="images/slider/5.jpg" alt="">
+                  <img src="{{asset('assets/images/slider/5.jpg')}}" alt="">
                   <div class="text_lines row m0">
                      <div class="container p0">
                         <h3>traditional Designer Jwellery</h3>
@@ -38,7 +38,7 @@
                   <!--Text Lines-->
                </li>
                <li>
-                  <img src="images/slider/4.jpg" alt="">
+                  <img src="{{asset('assets/images/slider/4.jpg')}}" alt="">
                   <div class="text_lines row m0">
                      <div class="container p0 text-left">
                         <h3>Find your perfect diamond</h3>
@@ -59,7 +59,7 @@
                   <div  class="diamond_j">
                   </div>
                   <div class="diamond_b">
-                     <img alt="" class="img-responsive"  src="images/ring.png">
+                     <img alt="" class="img-responsive"  src="{{asset('assets/images/ring.png')}}">
                   </div>
                </div>
                <div   class="col-md-6  ring_cont">
@@ -82,7 +82,7 @@
                            <a href="product.php">
                               <div class="gbinner imgTop">
                                  <div class="gb_img_box">
-                                    <img class="img-responsive fill_img" alt="" src="images/gridImage/1.png">
+                                    <img class="img-responsive fill_img" alt="" src="{{asset('assets/images/gridImage/1.png')}}">
                                  </div>
                                  <div class="gb_cont_box fill_bg">
                                     <h2>A flick of the wrist. The tinkle of ornaments. Wisps of laughter.</h2>
@@ -96,7 +96,7 @@
                            <a href="product.php">
                               <div class="gbinner imgTop">
                                  <div class="gb_img_box">
-                                    <img class="img-responsive nofill_img" alt="" src="images/gridImage/2.png">
+                                    <img class="img-responsive nofill_img" alt="" src="{{asset('assets/images/gridImage/2.png')}}">
                                  </div>
                                  <div class="gb_cont_box">
                                     <h2>Stand alone. Stand out</h2>
@@ -110,7 +110,7 @@
                            <a href="product.php">
                               <div class="gbinner imgTop">
                                  <div class="gb_img_box">
-                                    <img class="img-responsive fill_img" alt="" src="images/gridImage/3.png">
+                                    <img class="img-responsive fill_img" alt="" src="{{asset('assets/images/gridImage/3.png')}}">
                                  </div>
                                  <div class="gb_cont_box ">
                                     <h2>Have it your way</h2>
@@ -128,7 +128,7 @@
                            <a href="product.php">
                               <div class="gbinner imgRight clearfix">
                                  <div class="gb_img_box ">
-                                    <img class="img-responsive nofill_img" alt="" src="images/gridImage/4.png">
+                                    <img class="img-responsive nofill_img" alt="" src="{{asset('assets/images/gridImage/4.png')}}">
                                  </div>
                                  <div class="gb_cont_box">
                                     <h2>Smile from Ear to Ear</h2>
@@ -142,7 +142,7 @@
                            <a href="product.php">
                               <div class="gbinner imgLeft clearfix">
                                  <div class="gb_img_box ">
-                                    <img class="img-responsive nofill_img" alt="" src="images/gridImage/5.png">
+                                    <img class="img-responsive nofill_img" alt="" src="{{asset('assets/images/gridImage/5.png')}}">
                                  </div>
                                  <div class="gb_cont_box">
                                     <h2>Smile from Ear to Ear</h2>
@@ -156,7 +156,7 @@
                            <a href="product.php">
                               <div class="gbinner imgTop">
                                  <div class="gb_img_box">
-                                    <img class="img-responsive fill_img" alt="" src="images/gridImage/6.png">
+                                    <img class="img-responsive fill_img" alt="" src="{{asset('assets/images/gridImage/6.png')}}">
                                  </div>
                                  <div class="gb_cont_box ">
                                     <h2>Every festival needs a Goddess</h2>
@@ -170,7 +170,7 @@
                            <a href="product.php">
                               <div class="gbinner imgRight clearfix">
                                  <div class="gb_img_box ">
-                                    <img class="img-responsive nofill_img" alt="" src="images/gridImage/4.png">
+                                    <img class="img-responsive nofill_img" alt="" src="{{asset('assets/images/gridImage/4.png')}}">
                                  </div>
                                  <div class="gb_cont_box">
                                     <h2>Smile from Ear to Ear</h2>
@@ -204,7 +204,7 @@
          <div class=" shopFeatures_new container">
             <ul>
                <li class="sf_first">
-                  <img alt="" class="img-responsive"  src="images/feature/1.jpg">
+                  <img alt="" class="img-responsive"  src="{{asset('assets/images/feature/1.jpg')}}">
                   <div class="sf_box">
                      <div class="sf_box_inner">
                         <h2>free shipping</h2>
@@ -215,7 +215,7 @@
                </li>
                <li>
                   <a href="product.php">
-                     <img alt="" class="img-responsive"  src="images/feature/2.jpg">
+                     <img alt="" class="img-responsive"  src="{{asset('assets/images/feature/2.jpg')}}">
                      <div class="sf_box">
                         <div class="sf_box_inner">
                            <h3>shop & save</h3>
@@ -226,7 +226,7 @@
                </li>
                <li>
                   <a href="catalog.php">
-                     <img alt="" class="img-responsive"  src="images/feature/3.jpg">
+                     <img alt="" class="img-responsive"  src="{{asset('assets/images/feature/3.jpg')}}">
                      <div class="sf_box">
                         <div class="sf_box_inner">
                            <h3>Product catalog</h3>
@@ -236,7 +236,7 @@
                </li>
                <li>
                   <a href="product.php">
-                     <img alt="" class="img-responsive"  src="images/feature/4.jpg">
+                     <img alt="" class="img-responsive"  src="{{asset('assets/images/feature/4.jpg')}}">
                      <div class="sf_box">
                         <div class="sf_box_inner">
                            <h3>product list</h3>
@@ -264,7 +264,7 @@
                <div class="col-sm-4 product">
                   <div class="productInner row m0">
                      <div class="row m0 imgHov">
-                        <img src="images/product/5.png" alt="">
+                        <img src="{{asset('assets/images/product/5.png')}}" alt="">
                         <div class="row m0 hovArea">
                            <div class="row m0 icons">
                               <ul class="list-inline">
@@ -458,7 +458,7 @@
             
                <div class="item">
                   <div class="row m0 imgHov">
-                     <img src="images/product/category/20.png" alt="">
+                     <img src="{{asset('assets/images/product/category/20.png')}}" alt="">
                      <div class="row m0 hovArea">
                         <i class="fas fa-heart-o"></i><br>
                         <h4>11 items</h4>
@@ -474,7 +474,7 @@
                </div>
                <div class="item">
                   <div class="row m0 imgHov">
-                     <img src="images/product/category/17.png" alt="">
+                     <img src="{{asset('assets/images/product/category/17.png')}}" alt="">
                      <div class="row m0 hovArea">
                         <i class="fas fa-heart-o"></i><br>
                         <h4>21 items</h4>
@@ -490,7 +490,7 @@
                </div>
                <div class="item">
                   <div class="row m0 imgHov">
-                     <img src="images/product/category/18.png" alt="">
+                     <img src="{{asset('assets/images/product/category/18.png')}}" alt="">
                      <div class="row m0 hovArea">
                         <i class="fas fa-heart-o"></i><br>
                         <h4>30 items</h4>
@@ -506,7 +506,7 @@
                </div>
                <div class="item">
                   <div class="row m0 imgHov">
-                     <img src="images/product/category/19.png" alt="">
+                     <img src="{{asset('assets/images/product/category/19.png')}}" alt="">
                      <div class="row m0 hovArea">
                         <i class="fas fa-heart-o"></i><br>
                         <h4>55 items</h4>
@@ -522,7 +522,7 @@
                </div>
                <div class="item">
                   <div class="row m0 imgHov">
-                     <img src="images/product/category/17.png" alt="">
+                     <img src="{{asset('assets/images/product/category/17.png')}}" alt="">
                      <div class="row m0 hovArea">
                         <i class="fas fa-heart-o"></i><br>
                         <h4>21 items</h4>
@@ -547,7 +547,7 @@
          <div class="d-carousel-cener owl-carousel">
             <div class="dc-inner">
                <a href="single-product.php">
-                  <img alt="ring" src="images/carousel/1.png" >
+                  <img alt="ring" src="{{asset('assets/images/carousel/1.png')}}" >
                   <div class="dc-containt">
                      <h2>Cushion</h2>
                      <p>Bar Set Anniversary Ring</p>
@@ -556,7 +556,7 @@
             </div>
             <div class="dc-inner">
                <a href="single-product.php">
-                  <img alt="ring" src="images/carousel/2.png" >
+                  <img alt="ring" src="{{asset('assets/images/carousel/2.png')}}" >
                   <div class="dc-containt">
                      <h2>Round</h2>
                      <p>Bar Set Anniversary Ring</p>
@@ -565,7 +565,7 @@
             </div>
             <div class="dc-inner">
                <a href="single-product.php">
-                  <img alt="ring" src="images/carousel/3.png" >
+                  <img alt="ring" src="{{asset('assets/images/carousel/3.png')}}" >
                   <div class="dc-containt">
                      <h2>Pear</h2>
                      <p>Bar Set Anniversary Ring</p>
@@ -574,7 +574,7 @@
             </div>
             <div class="dc-inner">
                <a href="single-product.php">
-                  <img alt="ring" src="images/carousel/4.png" >
+                  <img alt="ring" src="{{asset('assets/images/carousel/4.png')}}" >
                   <div class="dc-containt">
                      <h2>Radiant</h2>
                      <p>Bar Set Anniversary Ring</p>
@@ -583,7 +583,7 @@
             </div>
             <div class="dc-inner">
                <a href="single-product.php">
-                  <img alt="ring" src="images/carousel/5.png" >
+                  <img alt="ring" src="{{asset('assets/images/carousel/5.png')}}" >
                   <div class="dc-containt">
                      <h2>Ovel</h2>
                      <p>Bar Set Anniversary Ring</p>
@@ -605,7 +605,7 @@
                <div class="col-sm-3 product">
                   <div class="productInner row m0">
                      <div class="row m0 imgHov">
-                        <img src="images/product/1.png" alt="">
+                        <img src="{{asset('assets/images/product/1.png')}}" alt="">
                         <div class="row m0 hovArea">
                            <div class="row m0 icons">
                               <ul class="list-inline">
@@ -753,7 +753,7 @@
                <ul class="nav nav-tabs" role="tablist" id="testiTab">
                   <li role="presentation" class="active">
                      <a href="#testi1" aria-controls="testi1" role="tab" data-toggle="tab">
-                     <img src="images/testimonial/1.png" alt="">
+                     <img src="{{asset('assets/images/testimonial/1.png')}}" alt="">
                      </a>
                      <div class="testi_rating">
                         <i class="fas fa-star"></i>
@@ -765,7 +765,7 @@
                   </li>
                   <li role="presentation">
                      <a href="#testi2" aria-controls="testi2" role="tab" data-toggle="tab">
-                     <img src="images/testimonial/2.png" alt="">
+                     <img src="{{asset('assets/images/testimonial/2.png')}}" alt="">
                      </a>
                      <div class="testi_rating">
                         <i class="fas fa-star"></i>
@@ -777,7 +777,7 @@
                   </li>
                   <li role="presentation">
                      <a href="#testi3" aria-controls="testi3" role="tab" data-toggle="tab">
-                     <img src="images/testimonial/3.png" alt="">
+                     <img src="{{asset('assets/images/testimonial/3.png')}}" alt="">
                      </a>
                      <div class="testi_rating">
                         <i class="fas fa-star"></i>
@@ -789,7 +789,7 @@
                   </li>
                   <li role="presentation">
                      <a href="#testi4" aria-controls="testi4" role="tab" data-toggle="tab">
-                     <img src="images/testimonial/4.png" alt="">
+                     <img src="{{asset('assets/images/testimonial/4.png')}}" alt="">
                      </a>
                      <div class="testi_rating">
                         <i class="fas fa-star"></i>
@@ -801,7 +801,7 @@
                   </li>
                   <li role="presentation">
                      <a href="#testi5" aria-controls="testi5" role="tab" data-toggle="tab">
-                     <img src="images/testimonial/5.png" alt="">
+                     <img src="{{asset('assets/images/testimonial/5.png')}}" alt="">
                      </a>
                      <div class="testi_rating">
                         <i class="fas fa-star"></i>
@@ -824,12 +824,12 @@
             </div>
             <div class="row brands">
                <ul class="nav navbar-nav">
-                  <li><a href="#"><img src="images/brands/1.png" alt=""></a></li>
-                  <li><a href="#"><img src="images/brands/2.png" alt=""></a></li>
-                  <li><a href="#"><img src="images/brands/3.png" alt=""></a></li>
-                  <li><a href="#"><img src="images/brands/4.png" alt=""></a></li>
-                  <li><a href="#"><img src="images/brands/5.png" alt=""></a></li>
-                  <li><a href="#"><img src="images/brands/2.png" alt=""></a></li>
+                  <li><a href="#"><img src="{{asset('assets/images/brands/1.png')}}" alt=""></a></li>
+                  <li><a href="#"><img src="{{asset('assets/images/brands/2.png')}}" alt=""></a></li>
+                  <li><a href="#"><img src="{{asset('assets/images/brands/3.png')}}" alt=""></a></li>
+                  <li><a href="#"><img src="{{asset('assets/images/brands/4.png')}}" alt=""></a></li>
+                  <li><a href="#"><img src="{{asset('assets/images/brands/5.png')}}" alt=""></a></li>
+                  <li><a href="#"><img src="{{asset('assets/images/brands/2.png')}}" alt=""></a></li>
                </ul>
             </div>
          </div>
@@ -844,7 +844,7 @@
                <div class="col-sm-6">
                   <div class="blog_inner single">
                      <div class="blog_j_img">
-                        <img alt="" class="img-responsive"  src="images/blog/blog6.png">
+                        <img alt="" class="img-responsive"  src="{{asset('assets/images/blog/blog6.png')}}">
                         <div class="btn_readmore">
                            <a  href="blog.php">Read more</a>
                         </div>
@@ -862,7 +862,7 @@
                      <div class="col-sm-6">
                         <div class="blog_inner">
                            <div class="blog_j_img">
-                              <img alt="" class="img-responsive"  src="images/blog/blog1.png">
+                              <img alt="" class="img-responsive"  src="{{asset('assets/images/blog/blog1.png')}}">
                               <div class="btn_readmore">
                                  <a  href="blog.php">Read more</a>
                               </div>
@@ -874,7 +874,7 @@
                         </div>
                         <div class="blog_inner">
                            <div class="blog_j_img">
-                              <img alt="" class="img-responsive"  src="images/blog/blog5.png">
+                              <img alt="" class="img-responsive"  src="{{asset('assets/images/blog/blog5.png')}}">
                               <div class="btn_readmore">
                                  <a  href="blog.php">Read more</a>
                               </div>
@@ -888,7 +888,7 @@
                      <div class="col-sm-6">
                         <div class="blog_inner">
                            <div class="blog_j_img">
-                              <img alt="" class="img-responsive"  src="images/blog/blog7.png">
+                              <img alt="" class="img-responsive"  src="{{asset('assets/images/blog/blog7.png')}}">
                               <div class="btn_readmore">
                                  <a  href="blog.php">Read more</a>
                               </div>
@@ -900,7 +900,7 @@
                         </div>
                         <div class="blog_inner">
                            <div class="blog_j_img">
-                              <img alt="" class="img-responsive"  src="images/blog/blog3.png">
+                              <img alt="" class="img-responsive"  src="{{asset('assets/images/blog/blog3.png')}}">
                               <div class="btn_readmore">
                                  <a  href="blog.php">Read more</a>
                               </div>

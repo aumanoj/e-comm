@@ -19,26 +19,26 @@
                 <div class="col-sm-7">
                     <div class="row m0 flexslider" id="productImageSlider">
                         <ul class="slides">
-                            <li><img src="images/product/single/1.jpg" alt=""></li>
-                            <li><img src="images/product/single/2.jpg" alt=""></li>
-                            <li><img src="images/product/single/3.jpg" alt=""></li>
-                            <li><img src="images/product/single/4.jpg" alt=""></li>
-                            <li><img src="images/product/single/5.jpg" alt=""></li>
-                            <li><img src="images/product/single/6.jpg" alt=""></li>
-                            <li><img src="images/product/single/7.jpg" alt=""></li>
-                            <li><img src="images/product/single/8.jpg" alt=""></li>
+                            <li><img src="{{asset('assets/images/product/single/1.jpg')}}" alt=""></li>
+                            <li><img src="{{asset('assets/images/product/single/2.jpg')}}" alt=""></li>
+                            <li><img src="{{asset('assets/images/product/single/3.jpg')}}" alt=""></li>
+                            <li><img src="{{asset('assets/images/product/single/4.jpg')}}" alt=""></li>
+                            <li><img src="{{asset('assets/images/product/single/5.jpg')}}" alt=""></li>
+                            <li><img src="{{asset('assets/images/product/single/6.jpg')}}" alt=""></li>
+                            <li><img src="{{asset('assets/images/product/single/7.jpg')}}" alt=""></li>
+                            <li><img src="{{asset('assets/images/product/single/8.jpg')}}" alt=""></li>
                         </ul>
                     </div>
                     <div class="row m0 flexslider" id="productImageSliderNav">
                         <ul class="slides">
-                            <li><img class="img-thumbnail" src="images/product/single/1s.jpg" alt=""></li>
-                            <li><img class="img-thumbnail" src="images/product/single/2s.jpg" alt=""></li>
-                            <li><img class="img-thumbnail" src="images/product/single/3s.jpg" alt=""></li>
-                            <li><img class="img-thumbnail" src="images/product/single/4s.jpg" alt=""></li>
-                            <li><img class="img-thumbnail" src="images/product/single/5s.jpg" alt=""></li>
-                            <li><img class="img-thumbnail" src="images/product/single/6s.jpg" alt=""></li>
-                            <li><img class="img-thumbnail" src="images/product/single/7s.jpg" alt=""></li>
-                            <li><img class="img-thumbnail" src="images/product/single/8s.jpg" alt=""></li>
+                            <li><img class="img-thumbnail" src="{{asset('assets/images/product/single/1s.jpg')}}" alt=""></li>
+                            <li><img class="img-thumbnail" src="{{asset('assets/images/product/single/2s.jpg')}}" alt=""></li>
+                            <li><img class="img-thumbnail" src="{{asset('assets/images/product/single/3s.jpg')}}" alt=""></li>
+                            <li><img class="img-thumbnail" src="{{asset('assets/images/product/single/4s.jpg')}}" alt=""></li>
+                            <li><img class="img-thumbnail" src="{{asset('assets/images/product/single/5s.jpg')}}" alt=""></li>
+                            <li><img class="img-thumbnail" src="{{asset('assets/images/product/single/6s.jpg')}}" alt=""></li>
+                            <li><img class="img-thumbnail" src="{{asset('assets/images/product/single/7s.jpg')}}" alt=""></li>
+                            <li><img class="img-thumbnail" src="{{asset('assets/images/product/single/8s.jpg')}}" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="fleft btn btn-default"><img src="images/icons/cart3.png" alt=""> add to cart</button>
+                            <button class="fleft btn btn-default"><img src="{{asset('assets/images/icons/cart3.png')}}" alt=""> add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                 </ul>
                 <div class="tab-content shortcodeTabContent">
                     <div role="tabpanel" class="tab-pane row m0 active" id="description">
-                        <div class="fleft img"><img class="img-responsive" src="images/product/10.png" alt=""></div>
+                        <div class="fleft img"><img class="img-responsive" src="{{asset('assets/images/product/10.png')}}" alt=""></div>
                         <div class="fleft desc">
                             <h5 class="heading">Product Details</h5>
                             <p>Dining furniture designs are plain in appearance, stripped to bare essentials (few turnings, no decorations), featuring natural materials; no ornamentation; strong emphasis on function.Dining furniture designs are plain in appearance, stripped to bare essentials (few turnings, no decorations), featuring natural materials; no ornamentation; strong emphasis on function.</p>
@@ -204,7 +204,7 @@
                 <div class="col-sm-3 product">
                     <div class="productInner row m0">
                         <div class="row m0 imgHov">
-                            <img src="images/product/pro1p/1.png" alt="">
+                            <img src="{{asset('assets/images/product/pro1p/1.png')}}" alt="">
                             <div class="row m0 hovArea">
                                 <div class="row m0 icons">
                                     <ul class="list-inline">
@@ -233,7 +233,7 @@
                 <div class="col-sm-3 product">
                     <div class="productInner row m0">
                         <div class="row m0 imgHov">
-                            <img src="images/product/pro1p/2.png" alt="">
+                            <img src="{{asset('assets/images/product/pro1p/2.png')}}" alt="">
                             <div class="row m0 hovArea">
                                 <div class="row m0 icons">
                                     <ul class="list-inline">
@@ -262,7 +262,7 @@
                 <div class="col-sm-3 product">
                     <div class="productInner row m0">
                         <div class="row m0 imgHov">
-                            <img src="images/product/pro1p/3.png" alt="">
+                            <img src="{{asset('assets/images/product/pro1p/3.png')}}" alt="">
                             <div class="row m0 hovArea">
                                 <div class="row m0 icons">
                                     <ul class="list-inline">
@@ -291,7 +291,7 @@
                 <div class="col-sm-3 product">
                     <div class="productInner row m0">
                         <div class="row m0 imgHov">
-                            <img src="images/product/pro1p/4.png" alt="">
+                            <img src="{{asset('assets/images/product/pro1p/4.png')}}" alt="">
                             <div class="row m0 hovArea">
                                 <div class="row m0 icons">
                                     <ul class="list-inline">
