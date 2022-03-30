@@ -32,7 +32,8 @@ Route::get('/cart',[CartController::class, 'index'])->name('cart');
 Route::post('/add_to_cart',[CartController::class, 'cart'])->name('add_to_cart');
 Route::get('/product/{id}',[HomeController::class, 'getSingleProduct']);
 Route::get('/category/{id}',[HomeController::class, 'getCategory']);
-
+Route::patch('/update-cart', [CartController::class, 'update'])->name('update_cart');
+Route::delete('/remove-from-cart', [CartController::class, 'remove'])->name('remove_from_cart');
 
 
 // Route::get('cart', [CartController::class, 'cartList'])->name('cart.list');
@@ -40,4 +41,3 @@ Route::get('/category/{id}',[HomeController::class, 'getCategory']);
 // Route::post('update-cart', [CartController::class, 'updateCart'])->name('cart.update');
 // Route::post('remove', [CartController::class, 'removeCart'])->name('cart.remove');
 // Route::post('clear', [CartController::class, 'clearAllCart'])->name('cart.clear');
-

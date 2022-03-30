@@ -10,7 +10,7 @@ use App\Models\ProductSubcategory;
 class HomeController extends Controller
 {
     function index(){
-        $product_categories = ProductCategory::with('sub_categories')->take(8)->get();
+        $product_categories = ProductCategory::with('sub_categories')->get();
         $home_products = Product::get();
 
         return view('frontend/home',compact('product_categories','home_products'));
