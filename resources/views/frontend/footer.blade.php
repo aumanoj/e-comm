@@ -198,6 +198,7 @@
        </div>
        <div class="row m0 copyRight">
            <div class="container">
+
                <div class="row">
                    <div class="fleft">&copy; 2021 <a href="index.php">Bansal and Sons Jewellers</a> All Rights Reserved.
                        Developed & Managed By <a href="#">JavaTpoint</a> </div>
@@ -213,7 +214,7 @@
    </footer>
    <!--jQuery, Bootstrap and other vendor JS-->
    <!--jQuery-->
-   <script src="{{URL::asset('assets/js/jquery-2.1.3.min.js')}}?t=<?=time();?>"></script>
+
    <!--Google Maps-->
    <script src="https://maps.googleapis.com/maps/api/js')}}?t=<?=time();?>"></script>
    <!--Bootstrap JS-->
@@ -226,3 +227,43 @@
    <!--FlexSlider-->
    <script src="{{URL::asset('assets/vendors/flexslider/jquery.flexslider-min.js')}}?t=<?=time();?>"></script>
    <!--D-shine JS-->
+       <script type="text/javascript">
+           $(".cart_update").change(function(e) {
+
+               e.preventDefault();
+
+           var ele = $(this);
+           //console.log(ele.parents("tr").find(".quantity").val());
+           $.ajax({
+               url: '{{ route('update_cart') }}',
+           method: "patch",
+           data: {
+               _token: '{{ csrf_token() }}',
+           id: ele.parents("tr").attr("data-id"),
+           quantity: ele.parents("tr").find(".quantity").val()
+        },
+           success: function(response) {
+               window.location.reload();
+        }
+    });
+});
+           $(".cart_remove").click(function(e) {
+               e.preventDefault();
+
+           var ele = $(this);
+
+           if (confirm("Do you really want to remove?")) {
+               $.ajax({
+                   url: '{{ route('remove_from_cart') }}',
+                   method: "DELETE",
+                   data: {
+                       _token: '{{ csrf_token() }}',
+                       id: ele.parents("tr").attr("data-id")
+                   },
+                   success: function (response) {
+                       window.location.reload();
+                   }
+               });
+    }
+});
+       </script>

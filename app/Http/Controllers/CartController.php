@@ -13,6 +13,8 @@ class CartController extends Controller
     function index(){
         //return "cart here";
         $product_categories = Productcategory::get();
+        $cartCount=0;
+        $carts=[];
          if(Auth::user()){
             $cartCount = Cart::where('user_id',Auth::user()->id)->count();
             $carts = Cart::with('products')->where('user_id',Auth::user()->id)->get();

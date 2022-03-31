@@ -73,7 +73,7 @@
                                         <a href="{{url('cart')}}">
                                             <span class="wish">
                                                 <i class="fas fa-gem"></i>
-                                                2
+                                                {{$cartCount}}
                                             </span>
                                             <span>My cart</span>
                                         </a>
@@ -88,46 +88,34 @@
                                                         </tr>
                                                     </thead>
                                                     <tbody>
-                                                        <tr class="alert" role="alert">
+                                                        @if($carts)
+                                                        @foreach($carts as $cart)
+                                                        <tr class="alert" role="alert" data-id="{{ $cart->id }}">
                                                             <td class="productImage"><img
                                                                     src="{{asset('assets/images/product/single/l1.png')}}"
                                                                     alt=""></td>
                                                             <td class="productName">
-                                                                <h6 class="heading">Gold Plated Charm</h6>
+                                                                <h6 class="heading">
+                                                                    {{$cart->products->product_model_name}}</h6>
                                                                 <div class="input-group spinner">
-                                                                    <input class="form-control" value="1" type="text">
-                                                                    <div class="input-group-btn-vertical">
-                                                                        <button class="btn btn-default"><i
-                                                                                class="fas fa-angle-up"></i></button>
-                                                                        <button class="btn btn-default"><i
-                                                                                class="fas fa-angle-down"></i></button>
+                                                                    <div class="input-group spinner">
+                                                                        <input type="number" value="{{$cart->qty}}"
+                                                                            class="form-control quantity cart_update"
+                                                                            min="1" />
+
                                                                     </div>
+
                                                                 </div>
                                                             </td>
-                                                            <td><a href="#" class="edit" data-dismiss="alert"
-                                                                    aria-label="Close"><i
+                                                            <td><a href="#" class="edit cart_remove"
+                                                                    data-dismiss="alert" aria-label="Close"><i
                                                                         class="far fa-trash-alt"></i></a></td>
                                                         </tr>
-                                                        <tr class="alert" role="alert">
-                                                            <td class="productImage"><img
-                                                                    src="{{asset('assets/images/product/single/l1.png')}}"
-                                                                    alt=""></td>
-                                                            <td class="productName">
-                                                                <h6 class="heading">Zephyrr Stones</h6>
-                                                                <div class="input-group spinner">
-                                                                    <input class="form-control" value="1" type="text">
-                                                                    <div class="input-group-btn-vertical">
-                                                                        <button class="btn btn-default"><i
-                                                                                class="fas fa-angle-up"></i></button>
-                                                                        <button class="btn btn-default"><i
-                                                                                class="fas fa-angle-down"></i></button>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td><a href="#" class="edit" data-dismiss="alert"
-                                                                    aria-label="Close"><i
-                                                                        class="far fa-trash-alt"></i></a></td>
+                                                        @endforeach
+                                                        @else
+                                                        <tr>
                                                         </tr>
+                                                        @endif
                                                     </tbody>
                                                 </table>
                                             </div>
