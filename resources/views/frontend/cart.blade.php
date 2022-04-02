@@ -24,7 +24,7 @@
                         <tr>
                             <th class="productImage">Product image</th>
                             <th class="productName">Product name</th>
-                            <th>edit</th>
+                            <!-- <th>edit</th> -->
                             <th>price</th>
                             <th>quantity</th>
                             <th>total</th>
@@ -52,7 +52,7 @@
                                 </dl>
                                 </div>
                                 </td>
-                                <td><a href="#" class="edit"><i class="fas fa-edit"></i></a></td>
+                                <!-- <td><a href="#" class="edit"><i class="fas fa-edit"></i></a></td> -->
                             <td class="price"><del>₹ {{$cart->products->product_price}}</del>₹
                                 {{$cart->products->discounted_price}}</td>
                             <td>
