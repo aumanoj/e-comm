@@ -6,14 +6,21 @@ use Illuminate\Http\Request;
 use App\Models\ProductCategory;
 use App\Models\Product;
 use App\Models\ProductSubcategory;
-
+use App\models\Cart;
+use Auth;
 class HomeController extends Controller
 {
     function index(){
         $product_categories = ProductCategory::with('sub_categories')->get();
         $home_products = Product::get();
-
-        return view('frontend/home',compact('product_categories','home_products'));
+        $carts=[];
+        $cartCount=0;
+ if(Auth::user()){
+            $cartCount = Cart::where('user_id',Auth::user()->id)->count();
+            $carts = Cart::with('products')->where('user_id',Auth::user()->id)->get();
+ }
+ //dd($cartCount);
+        return view('frontend/home',compact('product_categories','home_products','cartCount','carts'));
     }
 
     function getSingleProduct($id){

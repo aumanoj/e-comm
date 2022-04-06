@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Product;
-
+use App\models\Cart;
+use Auth;
 class ProductController extends Controller
 {
     function cart(Request $request){
@@ -14,7 +15,12 @@ class ProductController extends Controller
     public function productList()
     {
         $products = Product::all();
-
-        return view('products', compact('products'));
+$carts=[];
+        $cartCount=0;
+ if(Auth::user()){
+            $cartCount = Cart::where('user_id',Auth::user()->id)->count();
+            $carts = Cart::with('products')->where('user_id',Auth::user()->id)->get();
+ }
+        return view('products', compact('products','cartCount','carts'));
     }
 }
