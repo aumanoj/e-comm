@@ -1,0 +1,85 @@
+.box-category.section-py-space .slide-10 .slick-prev, 
+.box-category.section-py-space .slide-10 .slick-next {
+    background: #1c3481;
+    display: none !important;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+.no-arrow > .slick-next,
+.no-arrow > .slick-prev {
+    display: block !important;
+  }
+
+
+  .rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    }
+    .rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+    }
+    .rating label:last-child {
+    position: static;
+    }
+    .rating label:nth-child(1) {
+    z-index: 5;
+    }
+    .rating label:nth-child(2) {
+    z-index: 4;
+    }
+    .rating label:nth-child(3) {
+    z-index: 3;
+    }
+    .rating label:nth-child(4) {
+    z-index: 2;
+    }
+    .rating label:nth-child(5) {
+    z-index: 1;
+    }
+    .rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    }
+    .rating label .icon {
+    float: left;
+    color: transparent;
+    }
+    .rating label:last-child .icon {
+    color: #000;
+    }
+    .rating:not(:hover) label input:checked ~ .icon,
+    .rating:hover label:hover input ~ .icon {
+    color: #fcd32b;
+    }
+    .rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #09f;
+    }

@@ -276,7 +276,7 @@
                <div class="col-sm-4 product">
                    <div class="productInner row m0">
                        <div class="row m0 imgHov">
-                           <img src="{{asset('assets/images/product/5.png')}}" alt="">
+                           <img src="dashboard/uploads/product_images/{{$home_product->image}}" alt="" >
                            <div class="row m0 hovArea">
                                <div class="row m0 icons">
                                    <ul class="list-inline">

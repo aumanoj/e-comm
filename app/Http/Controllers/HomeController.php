@@ -19,7 +19,7 @@ class HomeController extends Controller
             $cartCount = Cart::where('user_id',Auth::user()->id)->count();
             $carts = Cart::with('products')->where('user_id',Auth::user()->id)->get();
  }
- //dd($cartCount);
+//  dd($home_products);
         return view('frontend/home',compact('product_categories','home_products','cartCount','carts'));
     }
 
