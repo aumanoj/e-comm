@@ -275,8 +275,8 @@
 
                <div class="col-sm-4 product">
                    <div class="productInner row m0">
-                       <div class="row m0 imgHov">
-                           <img src="dashboard/uploads/product_images/{{$home_product->image}}" alt="" >
+                       <div class="row m0 imgHov">{{$home_product->image}}
+                           <img src="dashboard/uploads/product_images/{{$home_product->image}}" alt="" height="200" width="200" >
                            <div class="row m0 hovArea">
                                <div class="row m0 icons">
                                    <ul class="list-inline">
@@ -286,7 +286,7 @@
                                    </ul>
                                </div>
                                <div class="row m0 proType"><a
-                                       href="{{url('product',$home_product->products_id)}}">Baccarat</a></div>
+                                       href="{{url('product',$home_product->product_url)}}">Baccarat</a></div>
                                <div class="row m0 proRating">
                                    <i class="fas fa-star-o"></i>
                                    <i class="fas fa-star-o"></i>
@@ -299,7 +299,7 @@
                            </div>
                        </div>
                        <div class="row m0 proName"><a
-                               href="{{url('product',$home_product->products_id)}}">{{$home_product->product_model_name}}</a>
+                               href="{{url('product',$home_product->product_url)}}">{{$home_product->product_model_name}}</a>
                        </div>
                        <div class="row m0 proBuyBtn">
                            <form action="{{route('add_to_cart')}}" method="post">
