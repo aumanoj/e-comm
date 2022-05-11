@@ -12,7 +12,7 @@ class HomeController extends Controller
 {
     function index(){
         $product_categories = ProductCategory::with('sub_categories')->get();
-        $home_products = Product::get();
+        $home_products = Product::take(12)->get();
         $carts=[];
         $cartCount=0;
  if(Auth::user()){
