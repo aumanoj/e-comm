@@ -26,7 +26,11 @@ class HomeController extends Controller
     function getSingleProduct($id){
         $product_categories = ProductCategory::with('sub_categories')->get();
         $single_product = Product::where('product_url',$id)->first();
-        return view('frontend/singleProduct',compact('product_categories','single_product'));
+        if(Auth::user()){
+            $cartCount = Cart::where('user_id',Auth::user()->id)->count();
+            $carts = Cart::with('products')->where('user_id',Auth::user()->id)->get();
+        }
+        return view('frontend/singleProduct',compact('product_categories','single_product','cartCount','carts'));
     }
 
     function getCategory($id){

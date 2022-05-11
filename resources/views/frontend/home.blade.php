@@ -275,7 +275,7 @@
 
                <div class="col-sm-4 product">
                    <div class="productInner row m0">
-                       <div class="row m0 imgHov">{{$home_product->image}}
+                       <div class="row m0 imgHov">
                            <img src="dashboard/uploads/product_images/{{$home_product->image}}" alt="" height="200" width="200" >
                            <div class="row m0 hovArea">
                                <div class="row m0 icons">

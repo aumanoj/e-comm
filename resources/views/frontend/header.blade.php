@@ -73,7 +73,7 @@
                                         <a href="{{url('cart')}}">
                                             <span class="wish">
                                                 <i class="fas fa-gem"></i>
-                                                {{$cartCount}}
+                                                {{$cartCount ??''}}
                                             </span>
                                             <span>My cart</span>
                                         </a>
@@ -88,7 +88,7 @@
                                                         </tr>
                                                     </thead>
                                                     <tbody>
-                                                        @if($carts)
+                                                        @if($carts ??'')
                                                         @foreach($carts as $cart)
                                                         <tr class="alert" role="alert" data-id="{{ $cart->id }}">
                                                             <td class="productImage"><img
