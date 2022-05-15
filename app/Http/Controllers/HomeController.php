@@ -26,6 +26,8 @@ class HomeController extends Controller
     function getSingleProduct($id){
         $product_categories = ProductCategory::with('sub_categories')->get();
         $single_product = Product::where('product_url',$id)->first();
+        $carts=[];
+        $cartCount=0;
         if(Auth::user()){
             $cartCount = Cart::where('user_id',Auth::user()->id)->count();
             $carts = Cart::with('products')->where('user_id',Auth::user()->id)->get();

@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\models\Productcategory;
+use App\models\ProductCategory;
 use App\models\User;
 use Hash;
 use Auth;
 class AuthController extends Controller
 {
     function index(){
-        $product_categories = Productcategory::get();
+        $product_categories = ProductCategory::get();
         return view('frontend.login',compact('product_categories'));
     }
 
