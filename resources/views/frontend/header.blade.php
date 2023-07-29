@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bansal and Sons Jewellers - Deals in Jewellery, Diamond & Silver </title>
+    <title> e-comm </title>
     <!--Favicons-->
     <link rel="icon" type="image/png" sizes="32x32" href="images/dshine-logo.png">
     <meta name="msapplication-TileColor" content="#ffffff">
