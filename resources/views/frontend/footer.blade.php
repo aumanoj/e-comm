@@ -68,7 +68,7 @@
                        <div class="media-body">
                            <h5 class="heading">Email us @</h5>
                            <p>Email your issues and suggestion for the following email addresses: </p>
-                           <h5> info@bansalandsonsjewellers.com</h5>
+                           <h5> info@jewellers.com</h5>
                        </div>
                    </div>
                    <!--contactInfo-->
@@ -109,9 +109,9 @@
                                    alt=""></div>
                            <div class="media-body texts">
                                <h4>E-mail</h4>
-                               <h2 class="footer-info-h2" style="font-size: initial;">info@bansalandsonsjewellers.com
+                               <h2 class="footer-info-h2" style="font-size: initial;">info@jewellers.com
                                </h2>
-                               <h2 class="footer-info-h2" style="font-size: initial;">sales@bansalandsonsjewellers.com
+                               <h2 class="footer-info-h2" style="font-size: initial;">sales@jewellers.com
                                </h2>
                            </div>
                        </div>
@@ -121,8 +121,8 @@
                            <div class="media-left icon"><img src="{{asset('assets/images/icons/tel24-7_2.png')}}"
                                    alt=""></div>
                            <div class="media-body texts">
-                               <h4>Bansal and Sons Jewellers</h4>
-                               <h2 class="footer-info-h2" style="font-size: initial;">Bansal and Sons Jewellers Prop.
+                               <h4>Jewellers</h4>
+                               <h2 class="footer-info-h2" style="font-size: initial;">ewellers Prop.
                                </h2>
                                <h2 class="footer-info-h2" style="font-size: initial;">Tin: <br> GST: </h2>
                            </div>
@@ -145,7 +145,7 @@
                <div class="row">
                    <div class="col-sm-3 widget">
                        <div class="row m0">
-                           <h4>About Bansal and Sons Jewellers</h4>
+                           <h4>About Jewellers</h4>
                            <p>We provide the best Quality of products to you.We are always here to help our lovely
                                customers.</p>
                            <ul class="list-inline">
@@ -200,7 +200,7 @@
            <div class="container">
 
                <div class="row">
-                   <div class="fleft">&copy; 2021 <a href="index.php">Bansal and Sons Jewellers</a> All Rights Reserved.
+                   <div class="fleft">&copy; 2021 <a href="index.php">Jewellers</a> All Rights Reserved.
                        Developed & Managed By <a href="#">JavaTpoint</a> </div>
                    <ul class="nav nav-pills fright">
                        <li><a href="index.php">Home</a></li>
